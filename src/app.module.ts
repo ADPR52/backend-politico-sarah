@@ -29,6 +29,7 @@ import { SurveyResponse } from './survey-response/entities/survey-response.entit
 @Module({
   imports: [
     TypeOrmModule.forRoot({
+      // credenciales
       type: 'postgres',
       host: 'autorack.proxy.rlwy.net',
       port: 33623,
